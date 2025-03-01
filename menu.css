@@ -1,23 +1,25 @@
-<style>
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 40px;
-  width: 1200px;
-  height: 800px;
-  background-color: #262626;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('img/background.png');
+
 }
+
 
 /* Style the header */
 header {
-  background-color: #666;
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: white;
+
 }
 
 input[type=text] {
@@ -55,7 +57,7 @@ button[type=submit] {
 
 
 
-enterGameBox {
+.enterGameBox {
   float: left;
   width: 25%;
   height: 300px;
@@ -65,13 +67,13 @@ enterGameBox {
   margin: auto;
 }
 
-article {
+.article {
   float: right;
   width: 75%;
   background-color: #f1f1f1;
   height: 300px;
   text-indent: 50px;
-  image-orientation:
+
 
 
 }
@@ -82,7 +84,7 @@ sourceCode {
   background-color: #f1f1f1;
   height: 3000px;
   text-indent: 50px;
-  image-orientation:
+:
 }
 
 sources {
@@ -112,11 +114,10 @@ section:after {
 
 
 footer {
-  background-color: #777;
   padding: 10px;
   text-align: center;
   line-height: 150px;
   color: white;
   height: 200px
 }
-</style>
+
